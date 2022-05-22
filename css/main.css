@@ -92,14 +92,12 @@ h3 {
 /* Section main */ 
 
 .title {
-	width: 445px;
 	margin-bottom: 25px;
 	padding-top: 120px;
 	margin-right: 100px;
 }
 
 .intro {
-	width: 445px;
 	margin-right: 100px;
 	margin-bottom: 45px;
 }
@@ -115,6 +113,7 @@ h3 {
 	display: block;
 	text-align: center;
 	transition: all 0.5s ease;
+	border: 1.4px solid #fff;
 }
 
 .btn:hover {
@@ -126,4 +125,69 @@ h3 {
 
 .section-main-img {
 	width: inherit;
+}
+
+.section-main-img {
+	margin-bottom: 192px;
+}
+
+/* Section Service */
+
+.section-service-text {
+	text-align: center;
+}
+
+.section-service-text-title::after {
+	content: '';
+	display: block;
+	width: 56px;
+	height: 2px;
+	background-color: #000;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 33px;
+}
+
+.section-service-text-intro {
+	margin-bottom: 80px;
+}
+
+.service-card {
+	width: 350px;
+	height: 354px;
+	border-radius: 20px;
+	box-shadow: 10px 40px 50px rgb(229 233 246 / 40%);
+	padding-top: 54px;
+	padding-left: 37px;
+	margin-bottom: 37px;
+}
+
+.service-card-img {
+	margin-bottom: 23px;
+}
+
+.service-card-text-title {
+
+}
+
+.service-card-text-intro {
+	font-family: 'Mulish-Light';
+	font-size: 16px;
+	line-height: 28px;
+	padding-right: 40px;
+}
+
+.btn-service {
+	color: #458FF6;
+	background-color: #fff;
+	border: 1.4px solid #458FF6;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+.btn-service:hover {
+	color: #fff;
+	background-color: #458FF6;
+	transition: all 0.5s ease;
+	border: 1.4px solid #fff;
 }

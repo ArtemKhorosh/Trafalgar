@@ -183,6 +183,7 @@ h3 {
 	border: 1.4px solid #458FF6;
 	text-decoration: none;
 	margin: 0 auto;
+	margin-bottom: 220px;
 }
 
 .btn-service:hover {
@@ -190,4 +191,75 @@ h3 {
 	background-color: #458FF6;
 	transition: all 0.5s ease;
 	border: 1.4px solid #fff;
+}
+
+/* Section providers */
+
+.section-img {
+	width: inherit;
+}
+
+.section-providers-text {
+	padding-left: 80px;
+	text-align: left;
+}
+
+.section-providers-text-title {
+	margin-bottom: 60px;	
+}
+
+.section-providers-text-title::after {
+	content: '';
+	display: block;
+	width: 56px;
+	height: 2px;
+	background-color: #000;
+	margin-top: 26px;
+}
+
+.section-providers-text-intro {
+	margin-bottom: 40px;
+}
+
+.btn-providers {
+	margin: 0;
+	margin-bottom: 229px;
+}
+
+
+/* Section app */
+
+.section-app-text {
+	padding-right: 80px;
+	text-align: left;
+}
+
+.section-app-text-title {
+	margin-bottom: 60px;
+}
+
+.section-app-text-title::after {
+	content: '';
+	display: block;
+	width: 56px;
+	height: 2px;
+	background-color: #000;
+	margin-top: 26px;
+}
+
+.section-app-text-intro {
+	padding-right: 20px;
+	margin-bottom: 40px;
+}
+
+.btn-icon {
+	margin-bottom: 5px;
+	padding-left: 15px;
+}
+
+/* Section-slider*/
+
+.section-slider-text {
+	line-height: 48;
+	margin: 0 auto;
 }
